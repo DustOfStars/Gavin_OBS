@@ -1,0 +1,6 @@
+{
+  "folder": "Daily Note",
+  "autorun": true,
+  "format": "YYYY-MM-DD_dddd",
+  "template": "obsSelf/DailyNoteTemplate"
+}

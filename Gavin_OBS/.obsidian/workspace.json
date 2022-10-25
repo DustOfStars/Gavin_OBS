@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "a4d381c9e98edb65",
+    "type": "split",
+    "children": [
+      {
+        "id": "42433453c3c4bbe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cca375390e01a70d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Note/2022-10-25_星期二.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bbfea34e2b5cbaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/A.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0c00e9825842234",
+    "type": "split",
+    "children": [
+      {
+        "id": "362d16453ded1241",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b8a7485ab22952a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b15b9e1fb80e0f0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ebe488a6bc586184",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d8e1ef8055eeb4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3078a79b6606207",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1bdb585b94d7a58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "英语/Alphabet/A.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba3a104a53d4d82e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "英语/Alphabet/A.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2be8ef438e1f381",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a77f7c0449089d1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "英语/Alphabet/A.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "4bbfea34e2b5cbaf",
+  "lastOpenFiles": [
+    "Daily Note/2022-10-25_星期二.md",
+    "obsSelf/DailyNoteTemplate.md",
+    "读闲书/test.md",
+    "Daily Note/2022-10-24_星期一.md",
+    "读闲书/https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2FScreenshot1.jpg.md",
+    "test.md",
+    "https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2FBLE-protocol.jpg.md"
+  ]
+}
