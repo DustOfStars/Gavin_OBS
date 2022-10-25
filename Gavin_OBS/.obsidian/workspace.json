@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "921cc5b305e9d8df",
+        "id": "d8ff8e434e3f2167",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc6a3e59202fa39",
+            "id": "8a8ef6e7d8fb5f52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-10-25_星期二.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Note/2022-10-25_星期二.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Note/2022-10-25_星期二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily Note/2022-10-25_星期二.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -141,8 +132,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7bc6a3e59202fa39",
+  "active": "8a8ef6e7d8fb5f52",
   "lastOpenFiles": [
+    "Daily Note/2022-10-25_星期二.md",
+    "Daily Note/2022-10-26_星期三.md",
     "英语/Alphabet/U.md",
     "英语/Alphabet/G.md",
     "英语/Alphabet/H.md",
@@ -150,8 +143,6 @@
     "英语/Alphabet/J.md",
     "英语/Alphabet/K.md",
     "英语/Alphabet/L.md",
-    "英语/Alphabet/M.md",
-    "英语/Alphabet/N.md",
-    "英语/Alphabet/O.md"
+    "英语/Alphabet/M.md"
   ]
 }
