@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Note/2022-10-25_星期二.md",
+                "file": "obsSelf/DailyNoteTemplate.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,9 +32,99 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2cbd17d77ace674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/B.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "833e3900c848e6a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/C.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3585b6ff5540bbbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/D.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f40d93b01eb4778a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/E.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af482172699632c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/F.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8925adcc7ec47eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/G.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa60cb83d65066e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/Alphabet/H.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/Alphabet/A.md",
+                "file": "obsSelf/DailyNoteTemplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/Alphabet/A.md",
+                "file": "obsSelf/DailyNoteTemplate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/Alphabet/A.md"
+                "file": "obsSelf/DailyNoteTemplate.md"
               }
             }
           }
@@ -154,14 +244,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4bbfea34e2b5cbaf",
+  "active": "cca375390e01a70d",
   "lastOpenFiles": [
     "Daily Note/2022-10-25_星期二.md",
-    "obsSelf/DailyNoteTemplate.md",
-    "读闲书/test.md",
-    "Daily Note/2022-10-24_星期一.md",
-    "读闲书/https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2FScreenshot1.jpg.md",
-    "test.md",
-    "https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2FBLE-protocol.jpg.md"
+    "英语/Alphabet/A.md",
+    "英语/Alphabet/H.md",
+    "英语/Alphabet/G.md",
+    "英语/Alphabet/F.md",
+    "英语/Alphabet/E.md",
+    "英语/Alphabet/D.md",
+    "英语/Alphabet/C.md",
+    "英语/Alphabet/B.md",
+    "读闲书/test.md"
   ]
 }
