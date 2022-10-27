@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ff8e434e3f2167",
+        "id": "9617d1d48964074f",
         "type": "tabs",
         "children": [
           {
-            "id": "8a8ef6e7d8fb5f52",
+            "id": "b7282109b53c7acd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-10-26_星期三.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb3d3d4d129188e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/生活英语/Breakfast.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ec9f67205772ad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/生活英语/animals.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f09af67ac87a8a9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/生活英语/married or not.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f0778e990a34631",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,20 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "4f0778e990a34631",
+  "active": "b7282109b53c7acd",
   "lastOpenFiles": [
     "Daily Note/2022-10-27_星期四.md",
-    "英语/生活英语/animals.md",
+    "Daily Note/2022-10-26_星期三.md",
+    "英语/生活英语/colors.md",
+    "英语/生活英语/names of some of the clothes we wear.md",
     "英语/生活英语/married or not.md",
     "英语/生活英语/house.md",
-    "英语/生活英语/Breakfast.md",
-    "英语/Alphabet/Z.md",
-    "英语/Alphabet/Y.md",
-    "英语/Alphabet/X.md",
-    "英语/Alphabet/W.md",
-    "英语/Alphabet/V.md"
+    "英语/生活英语/fruit salad.md",
+    "英语/生活英语/breakfast   2.md",
+    "英语/生活英语/breakfast.md",
+    "英语/生活英语/animals.md"
   ]
 }
