@@ -8,7 +8,7 @@
 |      | zebra    | 斑马  |    |    |    |
 |      | zoo      |     |    |    |    |
 |      | zero     |     |    |    |    |
-|      | zucchini | 南瓜  |    |    |    |
+|      | zucchini | 西葫芦  |    |    |    |
 |      | zipper   |     |    |    |    |
 |      | zigzag   | 之字形 |
 

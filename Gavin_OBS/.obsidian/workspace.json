@@ -21,45 +21,6 @@
             }
           },
           {
-            "id": "243790cfc709aab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/Alphabet/X.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf47a17d4432d259",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/Alphabet/Y.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37aab98b0a3cd672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/Alphabet/Z.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cb3d3d4d129188e7",
             "type": "leaf",
             "state": {
@@ -70,6 +31,40 @@
                 "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "0ec9f67205772ad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/生活英语/animals.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f09af67ac87a8a9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/生活英语/married or not.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f0778e990a34631",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -139,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/生活英语/Breakfast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/生活英语/Breakfast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "英语/生活英语/Breakfast.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -194,17 +185,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "cb3d3d4d129188e7",
+  "active": "4f0778e990a34631",
   "lastOpenFiles": [
+    "Daily Note/2022-10-27_星期四.md",
+    "英语/生活英语/animals.md",
+    "英语/生活英语/married or not.md",
+    "英语/生活英语/house.md",
+    "英语/生活英语/Breakfast.md",
     "英语/Alphabet/Z.md",
     "英语/Alphabet/Y.md",
     "英语/Alphabet/X.md",
     "英语/Alphabet/W.md",
-    "英语/Alphabet/V.md",
-    "英语/Alphabet/U.md",
-    "英语/Alphabet/T.md",
-    "Daily Note/2022-10-26_星期三.md",
-    "英语/生活英语/Breakfast.md",
-    "英语/Alphabet/未命名.md"
+    "英语/Alphabet/V.md"
   ]
 }
