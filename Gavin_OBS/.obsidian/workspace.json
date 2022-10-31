@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/生活英语/names of some of the clothes we wear.md",
+                "file": "嵌入式/Common/中断.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/生活英语/places around town.md",
+                "file": "Daily Note/2022-10-31_星期一.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/生活英语/places around town.md",
+                "file": "Daily Note/2022-10-31_星期一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/生活英语/places around town.md",
+                "file": "Daily Note/2022-10-31_星期一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/生活英语/places around town.md"
+                "file": "Daily Note/2022-10-31_星期一.md"
               }
             }
           }
@@ -154,15 +154,15 @@
   },
   "active": "008cef3ca802d9b2",
   "lastOpenFiles": [
-    "英语/生活英语/the countries around the world.md",
-    "英语/生活英语/places around town.md",
+    "嵌入式/Common/中断.md",
     "英语/生活英语/names of some of the clothes we wear.md",
+    "Daily Note/2022-10-31_星期一.md",
+    "英语/生活英语/places around town.md",
+    "英语/生活英语/the countries around the world.md",
     "英语/生活英语/animals.md",
     "英语/生活英语/breakfast.md",
     "英语/生活英语/breakfast   2.md",
     "英语/生活英语/colors.md",
-    "英语/生活英语/fruit salad.md",
-    "英语/生活英语/house.md",
-    "英语/生活英语/married or not.md"
+    "英语/生活英语/fruit salad.md"
   ]
 }
