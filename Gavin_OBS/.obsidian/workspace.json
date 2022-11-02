@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9617d1d48964074f",
+        "id": "79fd9a200dadb550",
         "type": "tabs",
         "children": [
           {
-            "id": "b7282109b53c7acd",
+            "id": "7ec7a833ff682057",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Common/中断.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "008cef3ca802d9b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-10-31_星期一.md",
+                "file": "Daily Note/2022-11-02_星期三.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Note/2022-10-31_星期一.md",
+                "file": "Daily Note/2022-11-02_星期三.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Note/2022-10-31_星期一.md",
+                "file": "Daily Note/2022-11-02_星期三.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Note/2022-10-31_星期一.md"
+                "file": "Daily Note/2022-11-02_星期三.md"
               }
             }
           }
@@ -152,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "008cef3ca802d9b2",
+  "active": "7ec7a833ff682057",
   "lastOpenFiles": [
     "嵌入式/Common/中断.md",
-    "英语/生活英语/names of some of the clothes we wear.md",
+    "Daily Note/2022-11-01_星期二.md",
+    "嵌入式/Common/GPIO.md",
     "Daily Note/2022-10-31_星期一.md",
+    "英语/生活英语/names of some of the clothes we wear.md",
     "英语/生活英语/places around town.md",
     "英语/生活英语/the countries around the world.md",
     "英语/生活英语/animals.md",
     "英语/生活英语/breakfast.md",
-    "英语/生活英语/breakfast   2.md",
-    "英语/生活英语/colors.md",
-    "英语/生活英语/fruit salad.md"
+    "英语/生活英语/breakfast   2.md"
   ]
 }
