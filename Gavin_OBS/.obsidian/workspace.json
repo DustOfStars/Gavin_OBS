@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+                "file": "Daily Note/2022-11-07_星期一.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c132c34a0f65a110",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md"
+                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md"
               }
             }
           }
@@ -152,17 +165,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a5c065fcb8e894d5",
+  "active": "c132c34a0f65a110",
   "lastOpenFiles": [
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/README.md",
+    "Daily Note/2022-11-07_星期一.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/README.md",
     "Daily Note/2022-11-04_星期五.md",
     "Daily Note/2022-11-03_星期四.md",
     "Daily Note/2022-11-02_星期三.md",
     "英语/生活英语/body.md",
     "英语/生活英语/Jobs.md",
     "嵌入式/BLE/深入NXP低功耗蓝牙SDK开发系列 - 编程框架剖析.md",
-    "嵌入式/Common/中断.md",
-    "Daily Note/2022-11-01_星期二.md"
+    "嵌入式/Common/中断.md"
   ]
 }
