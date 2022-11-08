@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0ccf44fa55dd20f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-11-04_星期五.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a5c065fcb8e894d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Note/2022-11-07_星期一.md",
+                "file": "Daily Note/2022-11-08_星期二.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42933eaad006be65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 2. 开发系统 HW+SW组装系统.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "973a0a217c83872a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md"
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md"
               }
             }
           }
@@ -165,17 +178,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c132c34a0f65a110",
+  "active": "973a0a217c83872a",
   "lastOpenFiles": [
-    "Daily Note/2022-11-07_星期一.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 2. 开发系统 HW+SW组装系统.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+    "Daily Note/2022-11-08_星期二.md",
+    "Daily Note/2022-11-07_星期一.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/README.md",
     "Daily Note/2022-11-04_星期五.md",
     "Daily Note/2022-11-03_星期四.md",
     "Daily Note/2022-11-02_星期三.md",
     "英语/生活英语/body.md",
-    "英语/生活英语/Jobs.md",
-    "嵌入式/BLE/深入NXP低功耗蓝牙SDK开发系列 - 编程框架剖析.md",
-    "嵌入式/Common/中断.md"
+    "英语/生活英语/Jobs.md"
   ]
 }
