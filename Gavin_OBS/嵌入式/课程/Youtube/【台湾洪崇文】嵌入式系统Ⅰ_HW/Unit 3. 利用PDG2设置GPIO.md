@@ -50,6 +50,9 @@ Steps:
 4. 解说程序;
 5. 结果展示;
 
+![代码示例](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221109110041.png)
+
+
 
 
 

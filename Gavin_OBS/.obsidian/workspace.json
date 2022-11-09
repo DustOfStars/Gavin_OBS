@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 2. 开发系统 HW+SW组装系统.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91597fcc187e7ead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md"
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md"
               }
             }
           }
@@ -178,17 +191,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "973a0a217c83872a",
+  "active": "91597fcc187e7ead",
   "lastOpenFiles": [
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
+    "Daily Note/2022-10-31_星期一.md",
+    "嵌入式/Common/GPIO.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 2. 开发系统 HW+SW组装系统.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+    "obsSelf/DailyNoteTemplate.md",
+    "Daily Note/2022-11-09_星期三.md",
     "Daily Note/2022-11-08_星期二.md",
     "Daily Note/2022-11-07_星期一.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/README.md",
-    "Daily Note/2022-11-04_星期五.md",
-    "Daily Note/2022-11-03_星期四.md",
-    "Daily Note/2022-11-02_星期三.md",
-    "英语/生活英语/body.md",
-    "英语/生活英语/Jobs.md"
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md"
   ]
 }
