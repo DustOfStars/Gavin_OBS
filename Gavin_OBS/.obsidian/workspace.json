@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Note/2022-11-08_星期二.md",
+                "file": "Daily Note/2022-11-14_星期一.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Common/GPIO基础.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd0d2a5f0e703bc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a48d42a9adf949a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Note/2022-11-15_星期二.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/Common/GPIO基础.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/Common/GPIO基础.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Common/GPIO基础.md"
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md"
               }
             }
           }
@@ -191,17 +217,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d30f6ec71066b771",
+  "active": "fd0d2a5f0e703bc9",
   "lastOpenFiles": [
-    "嵌入式/Common/IO引脚复用（STM32为例）.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
+    "Daily Note/2022-11-15_星期二.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/().md",
+    "Daily Note/2022-11-14_星期一.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md",
     "Daily Note/2022-11-11_星期五.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
-    "Daily Note/2022-10-31_星期一.md",
-    "嵌入式/Common/GPIO.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 2. 开发系统 HW+SW组装系统.md",
-    "obsSelf/DailyNoteTemplate.md",
-    "Daily Note/2022-11-09_星期三.md"
+    "嵌入式/Common/GPIO基础.md",
+    "嵌入式/Common/IO引脚复用（STM32为例）.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md"
   ]
 }
