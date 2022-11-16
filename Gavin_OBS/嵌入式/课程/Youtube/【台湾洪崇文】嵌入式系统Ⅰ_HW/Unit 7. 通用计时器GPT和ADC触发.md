@@ -122,6 +122,18 @@ PWM的应用：
 ## Section 4. 使用PDG2设定GPT功能
 
 
+## Section 5. 使用GPT自动触发ADC实例
+
+涉及内容：
+- 使用GPT触发ADC采样；
+- 使用GPT输出弦波；
+- 实操低通滤波器；
+- 利用ADC采样低通滤波器输出；
+
+两个目标任务：
+1. GPT的PWM使用，产生PWM调制器取代DAC；
+2. 利用GPT的Timer功能，产生ADC的触发源，采样波形；
+
 
 
 

@@ -78,7 +78,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "530b0bfbfdf8f98d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md"
+                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md"
               }
             }
           }
@@ -217,17 +230,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd0d2a5f0e703bc9",
+  "active": "530b0bfbfdf8f98d",
   "lastOpenFiles": [
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md",
+    "Daily Note/2022-11-16_星期三.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
     "Daily Note/2022-11-15_星期二.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/().md",
     "Daily Note/2022-11-14_星期一.md",
     "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md",
-    "Daily Note/2022-11-11_星期五.md",
-    "嵌入式/Common/GPIO基础.md",
-    "嵌入式/Common/IO引脚复用（STM32为例）.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md"
+    "Daily Note/2022-11-11_星期五.md"
   ]
 }
