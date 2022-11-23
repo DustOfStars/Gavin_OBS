@@ -117,7 +117,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
+                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40469e38ed6eb835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/NXP/KW38/GCC的使用和教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5477ccb3f4ed64fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -191,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
+                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
+                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md"
+                "file": "嵌入式/NXP/KW38/学习 startup.c.md"
               }
             }
           }
@@ -243,17 +269,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6ce96cd29264af66",
+  "active": "5477ccb3f4ed64fc",
   "lastOpenFiles": [
+    "嵌入式/NXP/KW38/GCC的使用和教程.md",
+    "嵌入式/NXP/KW38/GCC 给部分代码设置编译选项.md",
+    "嵌入式/NXP/KW38/学习 startup.c.md",
+    "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
     "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/README.md",
+    "嵌入式/BLE/深入NXP低功耗蓝牙SDK开发系列 - 编程框架剖析.md",
+    "Daily Note/2022-11-23_星期三.md",
+    "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
     "Daily Note/2022-11-21_星期一.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md",
-    "Daily Note/2022-11-16_星期三.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 7. 通用计时器GPT和ADC触发.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 8. 实验--在终端显示采样电压.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 5. 七段显示器与时钟.md",
-    "Daily Note/2022-11-15_星期二.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/().md"
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md"
   ]
 }
