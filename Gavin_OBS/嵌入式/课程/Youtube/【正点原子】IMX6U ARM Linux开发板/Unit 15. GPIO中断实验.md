@@ -137,24 +137,27 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 
 
 
-![[Pasted image 20221124112632.png]]
+![[00.png]]
 
 ====================
 
 
-![](嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/0Apictures/Pasted image 20221124112632.png)
+![](嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/0Apictures/00.png)
 
 
 
-![aaa](./0Apictures/Pasted image 20221124112632.png)
+![aaa](./0Apictures/00.png)
 
+![ccc](../0Apictures/00.png)
 
-![bbb](/0Apictures/Pasted image 20221124112632.png)
+![bbb](0Apictures/00.png)
 
 [[2022-11-21_星期一]]
 
 
 ![](https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2F20221124113843.png)
+
+1111111111
 ![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221124113843.png)
 
 
