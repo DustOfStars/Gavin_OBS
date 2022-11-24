@@ -119,52 +119,297 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 
 ## 15.3 IRQ中断服务函数编写
 
+Cortex-A的IRQ_Handler是基本通用的：
+
+![IRQ_Handler](./0pictures/01.png)
+
+![IRQ_Handler](./0pictures/02.jpg)
+
+![IRQ_Handler](./0pictures/03.jpg)
+
+![IRQ_Handler笔记](./0pictures/04.jpg)
+
+
 
 ## 15.4 通用中断驱动编写
+
+> [超级重要的一节！！](https://www.youtube.com/watch?v=tdJJYBjFCYw&list=PLkmkNssEXKuz3mAG0zxoJidbahYCzOXfA&index=34)
+
+
+main函数中，`int_init()` 初始化中断，必须放在最前面（初始化时钟之前）！！
+
+### bsp_int.c
+
+```c
+#include "bsp_int.h"
+
+// 记录中断嵌套
+static unsigned int irqNesting;
+
+/*中断处理函数表*/
+static sys_irq_handle_t irqTable[NUMBER_OF_INT_VECTORS];    // 160
+
+/*初始化中断处理函数表*/
+void system_irqtable_init(void)
+{
+	unsigned int i = 0;
+
+	irqNesting = 0；
+	for(i = 0; i < NUMBER_OF_INT_VECTORS; i++)
+	{
+		irqTable[i].irqHandler = default_irqhandler;
+		irqTable[i].userParam = NULL;
+	}
+}
+
+/*注册中断处理函数*/
+void system_register_irqhandler(IRQn_Type irq, system_irq_handler_t handler, void *userParam)
+{
+	irqTable[irq].irqHandler = handler;
+	irqTable[irq].userParam = userParam;
+}
+
+/*中断初始化函数*/
+void  int_init(void)
+{
+	GIC_Init();
+	system_irqtable_init();
+	/*中断向量偏移设置*/
+	__set__VBAR(0x87800000);
+}
+
+/*具体的中断处理函数，IRQ_Handler会调用这个函数*/
+void system_irqhandler(unsigned int gicciar)
+{
+	uint32_t intNum = gicciar & 0x3ff;    // 取低10位
+	/*检查中断ID*/
+	if(intNum >= NUMBER_OF_INT_VECTORS)
+	{
+		return;
+	}
+
+	irqNesting++；
+	/*根据中断ID号，读取中断处理寒素，然后执行*/
+	irqTable[intNum].irqHandler(intNum, irqTable[intNum].userParam)
+;
+	irqNesting--；
+}
+
+/*默认中断处理函数*/
+void default_irqhandler(unsigned int gicciar, void *userParam)
+{
+	while(1)
+	{
+	}
+}
+
+```
+
+
+### bsp_int.h
+
+```c
+#ifndef __BSP_INT_H
+#define __BSP_INT_H
+#include "imx6u.h"
+
+/*定义中断处理函数*/
+typedef void (*system_irq_handler_t)(unsigned int gicciar, void *param);
+
+/*定义中断处理函数结构体*/
+typedef struct _sys_irq_handle
+{
+	system_irq_handler_t irqHandler;    /*中断处理函数*/
+	void *userParam;    /*传递给中断处理函数的参数*/
+}sys_irq_handle_t;
+
+void int_init(void);
+
+#endif
+```
 
 
 ## 15.5 向GPIO驱动中添加中断处理函数
 
+![GPIO中断设置+GIC配置](./0pictures/05.jpg)
+
+### bsp_gpio.h
+
+```c
+/*描述中断触发类型的枚举*/
+typedef enum _gpio_interrupt_mode
+{
+	kGPIO_NoIntmode = 0U,    // 无中断功能
+	kGPIO_IntLowLevel = 1U,    // 低电平触发
+	kGPIO_IntHighLevel = 2U,    // 高电平触发
+	kGPIO_IntRisingEdge = 3U,    // 上升沿触发
+	kGPIO_IntFallingEdge = 4U,    // 下降沿触发
+	kGPIO_IntRisingOrFallingEdge = 5U,    // 上升下降沿都触发
+} gpio_interrupt_mode_t;
+
+/*枚举类型和GPIO结构体*/
+typedef enum _gpio_pin_direction
+{
+	kGPIO_DigitalInput = 0U,
+	kGPIO_DigitalOutput = 1U,
+}gpio_pin_direction_t;
+
+typedef struct _gpio_pin_config
+{
+	gpio_pin_direction_t direction;
+	uint8_t outputLogic;
+	gpio_interrupt_mode_t interruptMode;    // 中断方式
+}gpio_pin_config_t;
+
+void gpio_init(GPIO_Type *base, int pin, gpio_pin_config_t config);
+void gpio_pinwrite(GPIO_Type *base, int pin, int value);
+int gpio_pinread(GPIO_Type *base, int pin);
+```
+
+### bsp_gpio.c
+
+```c
+/*添加和中断有关的函数*/
+
+/*使能指定的IO中断*/
+void gpio_enableint(GPIO_Type *base, unsigned int pin)
+{
+	base->IMR |= (1 << pin);
+}
+
+/*禁止指定的IO中断*/
+void gpio_disableint(GPIO_Type *base, unsigned int pin)
+{
+	base->IMR &= ~(1 << pin);
+}
+
+/*清除中断标志位*/
+void gpio_clearintflags(GPIO_Type *base, unsigned int pin)
+{
+	base->ISR |= (1 << pin);    // 芯片手册说：写1清零
+}
+
+/*GPIO中断初始化函数*/
+void gpio_intconfig(GPIO_Type *base, unsigned int pin, gpio_interrupt_mode_t pin_int_mode)
+{
+	volatile uint32_t *icr;
+	uint32_t icrShift;
+
+	icrShift = pin;
+	base->EDFE_SEL &= ~(1 << pin);    // 清零，防止icr被覆盖
+
+	if(pin < 16)    // 低16位
+	{
+		icr = &(base->ICR1)；
+	}
+	else
+	{
+		icr = &(base->ICR2)；
+		icrShift -= 16;
+	}
+
+	switch(pin_int_mode)
+	{
+		case kGPIO_IntLowLevel:
+			*icr &= ~(3 << (2 * ircShift));    
+			// 一个IO用2个位表示触发模式，icrShift保存IO在ICR1或者ICR2中具体的位域，所以是2*icrShift
+			break;
+		case kGPIO_IntHighLevel:
+			*icr &= ~(3 << (2 * ircShift));  // 清零
+			*icr |= (1 << (2 * ircShift));   // 写1
+			break;
+		case kGPIO_IntRisingEdge:
+			*icr &= ~(3 << (2 * ircShift));  // 清零
+			*icr |= (2 << (2 * ircShift));   // 写2
+			break;
+		case kGPIO_IntFallingEdge:
+			*icr &= ~(3 << (2 * ircShift));  // 清零
+			*icr |= (3 << (2 * ircShift));   // 写3
+			break;
+		case kGPIO_IntRisingOrFallingEdge:
+			base->EDGE_SEL |= (1 << pin);
+			break;
+		default:
+			break;
+	}
+}
+```
+
+把`gpio_intconfig`函数，放入`gpio_init`函数中！！
+
+![GPIO初始化](./0pictures/06.jpg)
 
 
 ## 15.6 编写按键中断驱动
 
 
+### bsp_exti.h
+
+```c
+#ifndef __BSP_EXTI_H
+#define __BSP_EXTI_H
+#include "imx6u.h"
+
+void exti_init(void);
+void gpio1_io18_irqhandler(unsigned int gicciar, void *param);
+#endif
+```
 
 
+### bsp_exti.c
+
+```c
+#include "bsp_exti.h"
+#include "bsp_gpio.h"
+#include "bsp_int.h"
+#include "bsp_delay.h"
+#include "bsp_beep.h"
+
+/*初始化外部中断，也就是GPIO-IO18*/
+void exti_init(void)
+{
+    gpio_pin_config_t key_config;
+    IOMUXC_SetPinMux(IOMUXC_UART1_CTS_B_GPIO1_IO18, 0); /*复用位GPIO1_IO18*/
+    IOMUXC_SetPinConfig(IOMUXC_UART1_CTS_B_GPIO1_IO18, 0XF080);
+
+    /*GPIO初始化*/
+    key_config.direction = kGPIO_DigitalInput;
+    key_config.interruptMode = kGPIO_IntFallingEdge;
+    gpio_init(GPIO1, 18, &key_config);
+
+    GIC_EnableIRQ(GPIO1_Combined_16_31_IRQn);
+    /*注册中断处理函数*/
+    system_register_irqhandler(GPIO1_Combined_16_31_IRQn, gpio1_io18_irqhandler, NULL);
+    gpio_enableint(GPIO1, 18);
+}
 
 
+/*中断处理函数*/
+void gpio1_io18_irqhandler(unsigned int gicciar, void *param)
+{
+    static unsigned char state = 0;
+
+    delay(10);  // 消抖动,应该使用定时器，实际开发不能delay中断
+    if(gpio_pinread(GPIO1, 18) == 0)  // 按键有效
+    {
+        state = !state;
+        beep_switch(state);
+    }
+
+    /*清除中断标志位*/
+    gpio_clearintflags(GPIO1, 18);
+}
+
+```
+
+**写完以上两个程序之后，在`main函数`中添加`exti_init()`！！！**
+
+### main.c
+
+![main.c part1](./0pictures/07.jpg)
+
+![main.c part2](./0pictures/08.jpg)
 
 
-
-![[00.png]]
-
-====================
-
-
-![](嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/0Apictures/00.png)
-
-
-
-![aaa](./0Apictures/00.png)
-
-![ccc](../0Apictures/00.png)
-
-![bbb](0Apictures/00.png)
-
-[[2022-11-21_星期一]]
-
-
-![](https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2F20221124113843.png)
-
-1111111111
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221124113843.png)
-
-
-
-
-
-
-
-
+[[2022-11-24_星期四]]
 

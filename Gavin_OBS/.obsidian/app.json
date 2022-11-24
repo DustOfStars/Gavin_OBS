@@ -11,6 +11,6 @@
   "livePreview": true,
   "defaultViewMode": "preview",
   "newFileLocation": "current",
-  "attachmentFolderPath": "",
+  "attachmentFolderPath": "./0pictures",
   "alwaysUpdateLinks": true
 }
