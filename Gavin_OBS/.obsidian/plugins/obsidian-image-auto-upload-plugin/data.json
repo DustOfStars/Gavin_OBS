@@ -1,5 +1,5 @@
 {
-  "uploadByClipSwitch": false,
+  "uploadByClipSwitch": true,
   "uploader": "PicGo",
   "uploadServer": "http://127.0.0.1:36677/upload",
   "picgoCorePath": "",

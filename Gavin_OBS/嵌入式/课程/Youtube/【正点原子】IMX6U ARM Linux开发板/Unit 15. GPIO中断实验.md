@@ -154,6 +154,9 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 [[2022-11-21_星期一]]
 
 
+![](https%3A%2F%2Fraw.githubusercontent.com%2FDustOfStars%2FObsPicGo%2Fmaster%2FGavin_Obs%2F20221124113843.png)
+![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221124113843.png)
+
 
 
 
