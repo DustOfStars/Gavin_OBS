@@ -142,14 +142,14 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 ====================
 
 
-![](/0Apictures/Pasted image 20221124112632.png)
+![](嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/0Apictures/Pasted image 20221124112632.png)
 
 
 
+![aaa](./0Apictures/Pasted image 20221124112632.png)
 
 
-
-
+![bbb](/0Apictures/Pasted image 20221124112632.png)
 
 [[2022-11-21_星期一]]
 
