@@ -11,147 +11,13 @@
             "id": "a5c065fcb8e894d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Daily Note/2022-11-14_星期一.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c132c34a0f65a110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42933eaad006be65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "973a0a217c83872a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/Common/IO引脚复用（STM32为例）.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d30f6ec71066b771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd0d2a5f0e703bc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "530b0bfbfdf8f98d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-11-21_星期一.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3afed1130aefd9f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ce96cd29264af66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40469e38ed6eb835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/NXP/KW38/GCC的使用和教程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5477ccb3f4ed64fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "PDF/跟我一起写 Makefile.pdf"
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 221.5
   },
   "right": {
     "id": "9d8e1ef8055eeb4f",
@@ -217,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
+                "file": "PDF/跟我一起写 Makefile.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/NXP/KW38/学习 startup.c.md",
+                "file": "PDF/跟我一起写 Makefile.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/NXP/KW38/学习 startup.c.md"
+                "file": "PDF/跟我一起写 Makefile.pdf"
               }
             }
           }
@@ -269,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5477ccb3f4ed64fc",
+  "active": "a5c065fcb8e894d5",
   "lastOpenFiles": [
-    "嵌入式/NXP/KW38/GCC的使用和教程.md",
-    "嵌入式/NXP/KW38/GCC 给部分代码设置编译选项.md",
+    "Daily Note/2022-11-24_星期四.md",
+    "读闲书/test.md",
     "嵌入式/NXP/KW38/学习 startup.c.md",
+    "嵌入式/Common/中断.md",
+    "嵌入式/Common/IO引脚复用（STM32为例）.md",
     "嵌入式/Common/C语言生僻语法/GCC __attribute__ 之weak,alias属性.md",
-    "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/README.md",
-    "嵌入式/BLE/深入NXP低功耗蓝牙SDK开发系列 - 编程框架剖析.md",
-    "Daily Note/2022-11-23_星期三.md",
-    "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
-    "Daily Note/2022-11-21_星期一.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 4. 通用异步收发传输UART 和 RS-232.md"
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+    "读闲书/another.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 3. 利用PDG2设置GPIO.md",
+    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 6. 模数转换器ADC.md"
   ]
 }
