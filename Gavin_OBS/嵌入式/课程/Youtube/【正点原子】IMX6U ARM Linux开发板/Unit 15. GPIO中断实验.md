@@ -1,3 +1,10 @@
+# 目录
+
+
+
+[TOC]
+
+<div style="page-break-after:always"></div>
 
 ## 15.1 Cortex-A中断原理
 
@@ -29,35 +36,34 @@ ARM芯片从`0x00000000`开始运行，执行指令，在程序开始的地方�
 
 #### 1. Cortex-A7中断向量表
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121151007.png)
+![](./0pictures/a0.png)
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121151312.png)
+![](./0pictures/a1.png)
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121151505.png)
-
-
+![](./0pictures/a2.png)
 
 
 
 Cortex-A的中断向量表需要用户自己去定义；
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121151826.png)
+![](./0pictures/a3.png)
 #### 2. 中断向量偏移
 
 IMX6U的裸机例程都是从`0x87800000`开始，所以需要设置中断向量偏移；
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121152112.png)
+![](./0pictures/a4.png)
 
 #### 3. GIC中断控制器
 
 和NVIC一样，GIC用于管理Cortex-A的中断；
 GIC提供使能关闭中断、设置中断优先级等功能；
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121153039.png)
+![](./0pictures/a5.png)
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121153039.png)
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121153159.png)
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121153513.png)
+
+![](./0pictures/a6.png)
+
+![](./0pictures/a7.png)
 
 #### 4.  IMX6U中断号
 
@@ -87,7 +93,7 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 
 添加中断向量表，编写复位中断服务函数和IRQ中断服务函数；
 
-![添加中断向量表，并先写作空循环](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121161715.png)
+![添加中断向量表，并先写作空循环](./0pictures/a8.png)
 
 
 
@@ -99,23 +105,22 @@ GIC提供使能关闭中断、设置中断优先级等功能；
 
 
 
-![CP15协处理器用来关闭Cache](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121162036.png)
+![CP15协处理器用来关闭Cache](./0pictures/a9.png)
 
-![找到并配置SCTLR寄存器](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121171017.png)
+![找到并配置SCTLR寄存器](./0pictures/a10.png)
 
 - 清零bit位是bic，置为1就是清零这个位；
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121174726.png)
-
+![](./0pictures/a11.png)
 
 设置中断向量偏移：
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121174920.png)
+![](./0pictures/a12.png)
 
 设置各个模式下的SP指针：
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121175217.png)
+![](./0pictures/a13.png)
 
-![](https://raw.githubusercontent.com/DustOfStars/ObsPicGo/master/Gavin_Obs/20221121175447.png)
+![](./0pictures/a14.png)
 
 ## 15.3 IRQ中断服务函数编写
 
@@ -409,7 +414,6 @@ void gpio1_io18_irqhandler(unsigned int gicciar, void *param)
 ![main.c part1](./0pictures/07.jpg)
 
 ![main.c part2](./0pictures/08.jpg)
-
 
 [[2022-11-24_星期四]]
 

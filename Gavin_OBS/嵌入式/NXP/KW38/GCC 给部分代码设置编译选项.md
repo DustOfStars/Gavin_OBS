@@ -104,7 +104,7 @@ GCC使用的Linker脚本为**LD文件**，从文件中摘出`.text`段分配关�
   } >FLASH
 ```
 
-#### 2. 在**FLASH2段**的描述中填入该文件text段
+#### 2. 在**FLASH2段**的描述中填入该文件text
 ```ld
 .text_back :
   {
