@@ -8,59 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2767584a292d8673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾张庆龙】嵌入式系统Ⅱ_SW/README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6bc70f67f075d2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/课程/Youtube/【台湾张庆龙】嵌入式系统Ⅱ_SW/Unit 1. IO与中断.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d9084f30c691bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Note/2022-11-28_星期一.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a18f434eb4d65757",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "嵌入式/CASES/外部引脚中断.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "读闲书/读 《Programming Embedded Systems in C and C++》.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 297.5
   },
   "right": {
     "id": "9d8e1ef8055eeb4f",
@@ -126,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式/CASES/外部引脚中断.md",
+                "file": "读闲书/读 《Programming Embedded Systems in C and C++》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式/CASES/外部引脚中断.md",
+                "file": "读闲书/读 《Programming Embedded Systems in C and C++》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/CASES/外部引脚中断.md"
+                "file": "读闲书/读 《Programming Embedded Systems in C and C++》.md"
               }
             }
           }
@@ -180,15 +137,15 @@
   },
   "active": "a18f434eb4d65757",
   "lastOpenFiles": [
-    "Daily Note/2022-11-28_星期一.md",
-    "嵌入式/课程/Youtube/【台湾张庆龙】嵌入式系统Ⅱ_SW/Unit 1. IO与中断.md",
-    "嵌入式/课程/Youtube/【台湾张庆龙】嵌入式系统Ⅱ_SW/Unit 2. 嵌入式系统的程序架构.md",
-    "Daily Note/2022-11-25_星期五.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/Unit 1. 嵌入式系统基础与简介.md",
+    "读闲书/test.md",
+    "读闲书/读 《Programming Embedded Systems in C and C++》.md",
+    "读闲书/读 《》.md",
+    "嵌入式/CASES/外部引脚中断.md",
     "嵌入式/课程/Youtube/【台湾张庆龙】嵌入式系统Ⅱ_SW/README.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/未命名.md",
-    "嵌入式/课程/Youtube/【台湾洪崇文】嵌入式系统Ⅰ_HW/README.md",
-    "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/README.md",
-    "README.md"
+    "PDF/Programming Embedded Systems in C and C++.pdf",
+    "读闲书/another.md",
+    "PDF/跟我一起写 Makefile.pdf",
+    "PDF/Design Patterns for Embedded Systems in C An Embedded Software Engineering Toolkit.pdf",
+    "Daily Note/2022-11-30_星期三.md"
   ]
 }
