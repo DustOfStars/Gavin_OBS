@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Note/2022-12-06_星期二.md",
+                "file": "Daily Note/2022-12-07_星期三.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee4a1cfa0c42dd32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/NXP/RerferenceManual/ADC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c6cd73028bff0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/NXP/RerferenceManual/ADC入门必知必会.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Note/2022-12-06_星期二.md",
+                "file": "嵌入式/NXP/RerferenceManual/ADC入门必知必会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Note/2022-12-06_星期二.md",
+                "file": "嵌入式/NXP/RerferenceManual/ADC入门必知必会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Note/2022-12-06_星期二.md"
+                "file": "嵌入式/NXP/RerferenceManual/ADC入门必知必会.md"
               }
             }
           }
@@ -152,17 +178,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a117bfb18481c19d",
+  "active": "00c6cd73028bff0c",
   "lastOpenFiles": [
+    "嵌入式/NXP/RerferenceManual/ADC.md",
+    "Daily Note/2022-12-07_星期三.md",
+    "Daily Note/2022-12-06_星期二.md",
     "嵌入式/ZigBee/ZigBee组网原理详解.md",
     "嵌入式/ZigBee/ZigBee 协议栈知识详细总结 - 知....md",
     "嵌入式/课程/Youtube/【正点原子】IMX6U ARM Linux开发板/Unit 15. GPIO中断实验.md",
     "嵌入式/ZigBee/ZigBee不完全指南 - 腾讯云开发者....pdf",
     "Daily Note/2022-12-05_星期一.md",
     "读闲书/读 《Programming Embedded Systems in C and C++》.md",
-    "Daily Note/2022-12-01_星期四.md",
-    "读闲书/test.md",
-    "读闲书/读 《》.md",
-    "嵌入式/CASES/外部引脚中断.md"
+    "Daily Note/2022-12-01_星期四.md"
   ]
 }
